@@ -1,0 +1,262 @@
+body{
+				background-color: #ede8e8;
+}
+
+#my-container{
+				padding: 0;
+				color: #fff;
+}
+
+#my-navbar{
+				background: none;
+				border: 0;
+				position: absolute;
+				z-index: 1;
+				width: 100%;
+}
+
+.navbar-header{
+  float: none;
+}
+.navbar-toggle{
+				display: block;
+				border: 0;
+}
+#my-navbar .navbar-toggle:hover{
+				background: none;
+				cursor: pointer;
+}
+#my-navbar .navbar-brand, #mynavbar ul li a{
+				color: #fff;
+}
+.navbar-header .navbar-brand span{
+				color: grey;
+				font-weight: 300;
+}
+.icon-bar-left{
+				float: left;
+}
+#my-navbar .icon-bar{
+				background-color: #fff;
+}
+.icon-menu-right{
+				float: right;
+				position: relative;
+				top: -3px;
+				padding-left: 10px;
+}
+.navbar-right{
+				float: left !important;
+}
+#mynavbar{
+				border-top: 1px solid #fff;
+}
+
+
+
+/* carousel */
+.carousel-inner .item{
+				background-image: url("../img/slide01.jpg");
+				width: 100vw;
+				height: 100vh;
+				background-size: cover;
+}
+.carousel-inner .item-2{
+				background-image: url("../img/slide02.jpg");
+}
+.carousel-inner .item-3{
+				background-image: url("../img/slide03.jpg");
+}
+.carousel-inner .item-4{
+				background-image: url("../img/slide04.jpg");
+}
+.carousel-inner .item-5{
+				background-image: url("../img/slide05.jpg");
+}
+
+/* banner */
+.banner-text{
+				position: absolute;
+				top: 40%;
+				width: 100%;
+				text-align: center;
+}
+.banner-text p{
+				font-size: 15px;
+				color: #dbdbdb;
+				font-weight: 100;
+				letter-spacing: 4px;
+}
+.banner-text h1{
+				border-top: 1px solid #fff;
+				display: inline-block;
+				font-size: 120px;
+				font-weight: 400;
+				margin-top: 20px;
+}
+
+/* two-section starts */
+.two-section{
+				text-align: center;
+				padding: 100px 0;
+}
+.two-section .section-1, .two-section .section-2{
+				background-color: #fff;
+}
+.two-section .sections img{
+				width: 100%;
+}
+.sections p{
+				color: grey;
+				margin-top: 28px;
+				letter-spacing: 2px;
+				font-size: 11px;
+				font-weight: 100;
+}
+.sections hr{
+				width: 58%;
+				margin: 0 auto;
+}
+.sections h3{
+				margin-top: 8px;
+				font-weight: 400;
+}
+.sections .text-left{
+				font-size: 13px;
+				letter-spacing: 1px;
+				padding: 0 40px;
+}
+.sections button{
+				padding: 10px 20px;
+				border: 1px solid grey;
+				background: none;
+				margin: 28px 0;
+}
+.sections .section-1{
+				margin-right: 10px;
+}
+.sections .section-2{
+				margin-left: 10px;
+}
+
+/* quote-section */
+.quote-section{
+				padding: 100px 0;
+				background-image: url("../img/bg.jpg");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+}
+.quote-section p{
+				text-align: center;
+				color: grey;
+				font-weight: 300;
+				letter-spacing: 4px;
+}
+.quote-section hr{
+				width: 48%;
+				color: #dbdbdb;
+}
+.quote-section h1{
+   text-align: center;
+				font-weight: 400;
+				color: #dbdbdb;
+				letter-spacing: 2px;
+}
+
+/* 4-images section */
+.four-images-section{
+				padding: 100px 0;
+}
+.four-images-section p{
+				text-align: center;
+				color: grey;
+				font-weight: 300;
+				letter-spacing: 3px;
+}
+.four-images-section h1{
+				text-align: center;
+				font-weight: 400;
+				color: black;
+				letter-spacing: 1px;
+				border-top: 1px solid grey;
+				width: 60%;
+				margin: 18px auto;
+				padding-top: 15px;
+}
+.four-images-section .image img{
+				width: 100%;
+				border: 10px solid #fff;
+				margin-top: 28px;
+				border-radius: 2px;
+}
+
+/* footer */
+.footer{
+				padding: 100px 0;
+				background-color: black;
+}
+.footer .social, .footer p{
+				text-align: center;
+				margin-top: 8px;
+}
+.footer .social{
+				font-size: 28px;
+				letter-spacing: 8px;
+}
+.footer .social a{
+				color: inherit;
+}
+.footer p{
+				font-size: 13px;
+}
+
+/* media query */
+@media only screen and (max-width:990px){
+	
+	.sections .section-1{
+		margin-right: 0px;
+		margin-bottom: 50px;
+	}
+	.sections .section-2{
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width:768px){
+	
+	.banner-text p{
+				font-size: 11px;
+				letter-spacing: 2px;
+}
+	.banner-text h1{
+				font-size: 100px;
+				font-weight: 300;
+	}
+	
+	.navbar-right{
+		margin-left: 2px;
+	}
+	
+	.footer{
+		padding: 50px 0;
+	}
+	.footer .social{
+		font-size: 18px;
+		letter-spacing: 5px;
+	}
+	.footer p{
+		font-size: 9px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
