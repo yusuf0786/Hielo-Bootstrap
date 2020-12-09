@@ -97,51 +97,53 @@ body{
 
 /* two-section starts */
 .two-section{
-				text-align: center;
-				padding: 100px 0;
+				padding-top: 100px;
+				padding-bottom: 100px;
 }
 .two-section .section-1, .two-section .section-2{
 				background-color: #fff;
+				text-align: center;
 }
-.two-section .sections img{
+.two-section img{
 				width: 100%;
 }
-.sections p{
+.two-section p{
 				color: grey;
 				margin-top: 28px;
 				letter-spacing: 2px;
 				font-size: 11px;
 				font-weight: 100;
 }
-.sections hr{
+.two-section hr{
 				width: 58%;
 				margin: 0 auto;
 }
-.sections h3{
+.two-section h3{
 				margin-top: 8px;
 				font-weight: 400;
 }
-.sections .text-left{
+.two-section .text-left{
 				font-size: 13px;
 				letter-spacing: 1px;
 				padding: 0 40px;
 }
-.sections button{
+.two-section button{
 				padding: 10px 20px;
 				border: 1px solid grey;
 				background: none;
 				margin: 28px 0;
 }
-.sections .section-1{
+.two-section .section-1{
 				margin-right: 10px;
 }
-.sections .section-2{
+.two-section .section-2{
 				margin-left: 10px;
 }
 
 /* quote-section */
 .quote-section{
-				padding: 100px 0;
+				padding-top: 100px;
+				padding-bottom: 100px;
 				background-image: url("../img/bg.jpg");
 				background-size: cover;
 				background-position: center;
@@ -166,7 +168,8 @@ body{
 
 /* 4-images section */
 .four-images-section{
-				padding: 100px 0;
+				padding-top: 100px;
+				padding-bottom: 100px;
 }
 .four-images-section p{
 				text-align: center;
@@ -193,7 +196,8 @@ body{
 
 /* footer */
 .footer{
-				padding: 100px 0;
+				padding-top: 100px;
+				padding-bottom: 100px;
 				background-color: black;
 }
 .footer .social, .footer p{
@@ -214,12 +218,12 @@ body{
 /* media query */
 @media only screen and (max-width:990px){
 	
-	.sections .section-1{
-		margin-right: 0px;
-		margin-bottom: 50px;
+	.two-section .section-1{
+				margin-right: 0;
 	}
-	.sections .section-2{
-		margin-left: 0px;
+	.two-section .section-2{
+				margin-left: 0;
+				margin-top: 50px;
 	}
 }
 
@@ -234,19 +238,26 @@ body{
 				font-weight: 300;
 	}
 	
+	.icon-menu-right{
+				display: none;
+	}
 	.navbar-right{
-		margin-left: 2px;
+		margin-left: 1px;
 	}
 	
 	.footer{
-		padding: 50px 0;
+		padding-top: 28px;
+		padding-bottom: 28px;
 	}
 	.footer .social{
-		font-size: 18px;
+		font-size: 19px;
 		letter-spacing: 5px;
 	}
 	.footer p{
-		font-size: 9px;
+		font-size: 8px;
+		font-weight: 500;
+		letter-spacing: 1px;
+		text-transform: capitalize;
 	}
 }
 
